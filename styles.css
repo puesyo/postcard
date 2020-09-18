@@ -1,0 +1,59 @@
+body{
+    font-family: 'Comic Neue', cursive;
+}
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.header h1 { 
+    margin-top: 35px;
+}
+
+.header img {
+    width: 60px; 
+    height: 60px;
+    margin: 10px;
+}
+
+.b {
+    margin-left: 10px;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    width: 250px;
+    margin: 10px;
+}
+form {
+    width: 250px;
+    margin: 10px;
+    font-family: 'Comic Neue', cursive;
+}
+button {
+    align-self: center;
+    font-family: 'Comic Neue', cursive;
+    background-color: silver;
+    margin: 10px;
+    border: none;
+}
+.d{
+    display: flex;
+    justify-content: center;
+}
+
+.body input[type=text]{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 98%;
+    
+}
